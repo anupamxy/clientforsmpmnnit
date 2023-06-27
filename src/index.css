@@ -1,0 +1,49 @@
+
+
+
+body {
+  margin: 0px;
+ background-image: url(https://images.pexels.com/photos/3805983/pexels-photo-3805983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+ background-size: cover;
+ 
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+.Addanote{
+  margin: auto;
+	letter-spacing: 0.0015em;
+	font-size: 5em;
+	text-shadow: 0 1px #8da1ff, -1px 0 #c0cbff, -1px 2px #8da1ff, -2px 1px #c0cbff,
+		-2px 3px #8da1ff, -3px 2px #c0cbff, -3px 4px #8da1ff, -4px 3px #c0cbff,
+		-4px 5px #8da1ff, -5px 4px #c0cbff, -5px 6px #8da1ff, -6px 5px #c0cbff,
+		-6px 7px #8da1ff, -7px 6px #c0cbff, -7px 8px #8da1ff, -8px 7px #c0cbff;
+	text-align: center;
+} 
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+nav.sticky {
+  background-color: blue;
+  position: fixed; /* Make the navbar stick to the top */
+  top: 0;
+  width: 100%; /* Make the navbar full-width */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+  z-index: 999; /* Set a higher z-index to make sure it appears on top of other elements */
+}
+
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+/* Optional: Add styles for active link */
+nav a.active {
+  color: blue;
+  font-weight: bold;
+}

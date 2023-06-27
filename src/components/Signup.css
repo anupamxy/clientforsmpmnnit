@@ -1,0 +1,26 @@
+.singn{
+    color: greenyellow;
+    font-family: cursive;
+
+}
+.tosign{
+    font-weight: 500rem;
+    color: chartreuse;
+    font-family: serif;
+    margin: 0px 10spx;
+}
+.form-check-label{
+    color: gold;
+}
+/* 
+    .contained {
+        height: 500px;
+        width: 585px;
+        margin: 52px 433px;
+        background-color: darkgoldenrod;
+        border-radius: 0.25rem;
+        box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+      } */
+      .btnfill{
+        color: deeppink;
+      }
